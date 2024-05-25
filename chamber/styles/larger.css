@@ -1,0 +1,23 @@
+@media (min-width: 800px) {
+    nav .hamburger {
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .call-to-action,
+    .current-events,
+    .weather,
+    .company-spotlights {
+        grid-column: span 2;
+    }
+}
