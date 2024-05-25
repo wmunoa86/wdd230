@@ -1,0 +1,16 @@
+@media (min-width: 800px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .card:nth-child(1) {
+        grid-column: span 2;
+    }
+}
