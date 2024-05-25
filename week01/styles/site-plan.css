@@ -1,6 +1,5 @@
 .raleway {
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
 }
@@ -27,7 +26,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-optical-sizing: auto;
     margin: 0;
     padding: 0;
     color: #000;
@@ -75,7 +73,6 @@ h3{
 h3:nth-child(p){
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-optical-sizing: auto;
 }
 
 .color-swatch {
